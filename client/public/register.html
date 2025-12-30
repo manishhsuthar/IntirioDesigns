@@ -36,6 +36,8 @@
         text-align: center;
         margin-bottom: 1.5rem;
         font-weight: 500;
+        color: #2F3E46;
+        font-size: 30px;
     }
     .form-step {
         display: none;
@@ -117,13 +119,12 @@
     transition: background 0.2s ease, box-shadow 0.2s ease;
   }
     .google-btn img {
-    height: 30px;
+    height: 20px;
     margin-right: 12px;
-    border-radius: 20px;
     }
     .google-btn:hover {
     background: #f1f1f1; 
-    box-shadow : 2px 6px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
     .link {
     text-align: center;
@@ -153,10 +154,10 @@
                 <button type="button" class="btn" onclick="nextStep(1)">Next</button>
                 <div class="google-btn" onclick="googleSignIn()">
               <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo">
-              <!-- <span>Sign in with Google</span> -->
+              <span>Sign in with Google</span>
             </div>
             <div class="link">
-    Already have an account? <a href="/client/public/login.html">Sign Up</a>
+    Already have an account? <a href="/client/public/login.html">Sign In</a>
   </div>
             </div>
             <!-- Step 2 -->
